@@ -45,7 +45,7 @@ integration_tests/cdk.out
 integration_tests/testlib
 bin
 obj
-# dist
+dist
 __pycache__
 /test-reports/
 junit.xml
@@ -55,7 +55,7 @@ junit.xml
 !/tsconfig.dev.json
 !/src/
 /lib
-# /dist/
+/dist/
 !/.eslintrc.json
 .jsii
 tsconfig.json
