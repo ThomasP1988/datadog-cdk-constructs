@@ -12,6 +12,18 @@ const project = new awscdk.AwsCdkConstructLibrary({
 
   packageManager: javascript.NodePackageManager.YARN_CLASSIC,
   minNodeVersion: "14.15.0",
+  jsii: {
+    outdir: "dist",
+    targets: {
+      python: {
+        distName: "datadog-cdk-constructs-v2",
+        module: "datadog_cdk_constructs_v2",
+      },
+      go: {
+        moduleName: "github.com/DataDog/datadog-cdk-constructs-v2",
+      },
+    },
+  },
 
   jsiiFqn: "projen.AwsCdkConstructLibrary",
   defaultReleaseBranch: "main",
