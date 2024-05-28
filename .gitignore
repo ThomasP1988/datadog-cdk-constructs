@@ -55,7 +55,7 @@ junit.xml
 !/tsconfig.dev.json
 !/src/
 /lib
-/dist/
+# /dist/
 !/.eslintrc.json
 .jsii
 tsconfig.json
